@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Spring MVC view layer: Thymeleaf</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	</head>
+	<body>
+		<h2>This is a Thymeleaf template</h2>
+		<form action="#" th:object="${subscription}" th:action="@{/subscribeth}">
+			<fieldset>
+				<div>
+					<label for="email" th:text="#{subscription.email}">Email:</label>
+					<input type="text" th:field="*{email}" />
+					<br>
+					<span th:text="123"/>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
