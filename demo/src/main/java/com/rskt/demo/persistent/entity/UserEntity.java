@@ -1,20 +1,20 @@
 /**
  * Copyright © 2018 RSKT. All rights reserved. 
  */
-package com.rskt.demo.controller.vo;
+package com.rskt.demo.persistent.entity;
 
 /**
- * Class:User.java<br>
+ * Class:UserEntity.java<br>
  *
  * Class Summary：<br>
  * 
  * Class Feature:<br>
  *
  * @Author lishijie
- * @CreateDate 2018-07-05
+ * @CreateDate 2018-08-03
  *
  */
-public class User {
+public class UserEntity {
 	private String uid;
 	private String userId;
 	private String userNm;

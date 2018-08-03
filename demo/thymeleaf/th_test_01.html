@@ -11,8 +11,13 @@
 				<div>
 					<label for="email" th:text="#{subscription.email}">Email:</label>
 					<input type="text" th:field="*{email}" />
-					<br>
-					<span th:text="123"/>
+				</div>
+				<div>
+					<span th:text="123 + 2">Number</span>
+				</div>
+				<div>
+					<span th:text="|Welcome to my demo|">Number</span>
+					<span th:wahtever="ABC DEF">...</span>
 				</div>
 			</fieldset>
 		</form>

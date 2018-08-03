@@ -62,6 +62,12 @@
 			</exclusions>
 		</dependency>
 
+		<!-- Thymeleaf模块 -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
 	    <!-- Log4j模块 -->
 	    <dependency>
 	         <groupId>org.springframework.boot</groupId>
