@@ -3,6 +3,8 @@
  */
 package com.rskt.demo.service.repository;
 
+import java.util.List;
+
 import com.rskt.demo.persistent.entity.UserEntity;
 
 /**
@@ -44,4 +46,11 @@ public interface UserRepository {
 	 * @return
 	 */
 	public UserEntity getUserByUserId(String userId);
+	
+	/**
+	 * 根据条件获取用户列表信息
+	 * @param condition
+	 * @return
+	 */
+	public List<UserEntity> getUserList(UserEntity condition);
 }
